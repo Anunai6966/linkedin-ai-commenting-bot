@@ -98,4 +98,4 @@ Full prompt available in `system_prompt.md`.
 
 **Anunai Sai** — Final year B.Tech CS undergrad  
 Interests: ML, AI Automation, n8n, Computer Vision, NLP  
-[LinkedIn](https://linkedin.com/in/your-profile) • [GitHub](https://github.com/Anunai6966)
+[LinkedIn]((https://www.linkedin.com/in/anunai/)) • [GitHub](https://github.com/Anunai6966)
