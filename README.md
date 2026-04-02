@@ -58,38 +58,6 @@ linkedin-ai-commenting-bot/
 
 ---
 
-## Setup Guide
-
-### 1. Airtable
-- Create a new Airtable base called `Linkedin AutoComment`
-- Create 3 tables: `Profiles`, `Posts`, `Brand` — refer to `airtable_schema.md` for full field structure
-- Add your target LinkedIn usernames to the Profiles table
-- Add your brand tone of voice to the Brand table
-
-### 2. Apify
-- Sign up at [apify.com](https://apify.com)
-- Find the actor: **Profile Posts Scraper for LinkedIn [No Cookies]** by apimaestro
-- Connect your Apify account to n8n via OAuth
-
-### 3. Unipile
-- Sign up at [unipile.com](https://unipile.com)
-- Connect your LinkedIn account inside Unipile
-- Note your DSN, API key, and account ID
-
-### 4. Google Gemini
-- Get an API key from [Google AI Studio](https://aistudio.google.com)
-- Add it as a Google Gemini credential in n8n
-
-### 5. n8n
-- Import `workflow.json` into your n8n instance
-- Replace all placeholder credentials with your actual credentials
-- Update the Unipile DSN and account ID in the HTTP Request node
-- Activate both schedule triggers
-- Run the top chain manually first to populate Airtable with posts
-- Then run the bottom chain to test comment generation
-
----
-
 ## Airtable Status Flow
 ```
 New → Responded   (comment posted successfully)
