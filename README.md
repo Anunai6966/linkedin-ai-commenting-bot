@@ -81,18 +81,6 @@ Full prompt available in `system_prompt.md`.
 
 ---
 
-## Cost Estimate (Monthly)
-
-| Tool | Cost |
-|---|---|
-| n8n Cloud | $20/mo |
-| Unipile | $49/mo |
-| Apify | ~$3/mo |
-| Gemini API | Free tier |
-| Airtable | Free tier |
-| **Total** | **~$72/mo** |
-
----
 
 ## Built By
 
